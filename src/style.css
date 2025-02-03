@@ -1,0 +1,130 @@
+.head{
+    
+  text-align: center;
+  font-size: 100px;
+  font-family: "Anton SC", sans-serif;
+  font-style: italic;
+  
+
+}
+header{
+  background-color: #333;
+  
+}
+body{
+  background-color: grey;
+}
+.Sidebar {
+  width: 180px;
+  height: 100vh; 
+  background-color: #333; 
+  color: white; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+a{
+  color: white;
+  font-size: 20px;
+}
+
+.My-picture{
+  
+  width: 300px;
+  height: auto;
+  border: 5px solid #333 ;
+  border-radius: 15px;
+  
+}
+
+.MyProfile{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
+}
+figure{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  font-size: 20px;
+  font-family: "Anton SC", sans-serif;
+  
+}
+figcaption{
+  margin-top: 10x;
+  font-size: 20px;
+  font-family: "Anton SC", sans-serif;
+  color: #333;
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+.Knowledge{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.h1works{
+  text-align: center;
+  font-size: 40px;
+}
+.earlyworks {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px; 
+}
+
+.earlyworks img {
+  max-width: 300px; 
+  height: auto; 
+  display: block; 
+  border: 5px solid #333 ;
+  border-radius: 15px;
+}
+.Refs{
+  background-color: white;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.contact{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: flex-end; 
+  align-items: center; 
+  background-color: #333;
+  color: white;
+  padding: 20px; 
+}
+.FooterBS{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center; 
+  background-color: #333;
+  color: white;
+  padding: 20px; 
+}
